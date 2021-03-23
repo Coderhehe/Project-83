@@ -35,7 +35,7 @@ function mymousemove(e) {
     lastx=currentx;
     lasty=currenty;
 }
-canvas.addEventListener("touchmove",mytouchemove);
+canvas.addEventListener("touchmove",mytouchmove);
 function mytouchmove(e) {
     currentx=e.clientX - canvas.offsetLeft; 
     currenty=e.clientY - canvas.offsetTop; 

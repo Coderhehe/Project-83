@@ -1,3 +1,7 @@
 #bodyn{
 background-image:"bg1.jpg";
 }
+
+#myCanvas {
+    background-color: yellow;
+}
