@@ -1,7 +1,12 @@
-#bodyn{
-background-image:"bg1.jpg";
+#body1n{
+background-image:url("bg1.jpg");
+background-position: center;
+    background-size: cover;
 }
 
-#myCanvas {
-    background-color: yellow;
-}
+#myCanvas 
+  {
+      border-width:10px;
+      background-color: white; 
+      border-style:ridge;
+  }
